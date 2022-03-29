@@ -28,6 +28,9 @@
             android:ems="10"
             android:inputType="number"
             android:minHeight="48dp"
+            android:text="1"
+            android:textAlignment="center"
+            android:textSize="20sp"
             tools:ignore="SpeakableTextPresentCheck" />
 
     </LinearLayout>
@@ -53,6 +56,9 @@
             android:ems="10"
             android:inputType="number"
             android:minHeight="48dp"
+            android:text="1"
+            android:textAlignment="center"
+            android:textSize="20sp"
             tools:ignore="SpeakableTextPresentCheck" />
 
     </LinearLayout>
@@ -78,6 +84,9 @@
             android:ems="10"
             android:inputType="number"
             android:minHeight="48dp"
+            android:text="1"
+            android:textAlignment="center"
+            android:textSize="20sp"
             tools:ignore="SpeakableTextPresentCheck" />
 
     </LinearLayout>
@@ -103,7 +112,10 @@
             android:ems="10"
             android:inputType="number"
             android:minHeight="48dp"
-            tools:ignore="SpeakableTextPresentCheck" />
+            android:text="1"
+            android:textAlignment="center"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:textSize="20sp" />
 
     </LinearLayout>
 
