@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         {
             templeCount = Integer.parseInt(String.valueOf(textApples.getText()));
             price += templeCount * 200;
-            cart += "Яблоки\t\t\t\t" + templeCount + "кг\t\t" + "всего: " + (templeCount * 200) +"₽\n";
+            cart += "Яблоки\t\t\t" + templeCount + "кг\t\t" + "всего: " + (templeCount * 200) +"₽\n";
         }
         if (strawberry.isChecked())
         {

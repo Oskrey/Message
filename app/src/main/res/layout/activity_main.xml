@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -114,8 +115,8 @@
             android:minHeight="48dp"
             android:text="1"
             android:textAlignment="center"
-            tools:ignore="SpeakableTextPresentCheck"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:ignore="SpeakableTextPresentCheck" />
 
     </LinearLayout>
 
@@ -124,5 +125,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="onClick"
-        android:text="Button" />
+        android:text="Купить" />
 </LinearLayout>
